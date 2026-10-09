@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mogul-plugins",
+  "description": "Third-party Claude Code plugins used on Michele's machines, each pinned to a reviewed commit",
+  "owner": {
+    "name": "Michele",
+    "url": "https://github.com/michele-mogul"
+  },
+  "plugins": [
+    {
+      "name": "ponytail",
+      "description": "Lazy senior dev mode: smallest complete change, stdlib first, no unrequested abstractions (DietrichGebert/ponytail v5.1.0)",
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail",
+        "ref": "v5.1.0",
+        "sha": "9cc65d03aa2da1db7121b912d03596409ee340b8"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "ecc",
+      "description": "Everything Claude Code v2.2.3: 68 agents, skills and commands, without hooks or MCP servers (trimmed copy of affaan-m/ECC)",
+      "source": "./plugins/ecc",
+      "category": "workflow"
+    }
+  ]
+}
