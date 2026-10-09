@@ -1,7 +1,7 @@
 {
   "name": "ecc",
   "version": "2.2.3",
-  "description": "ECC v2.2.3 (c05b2d6): agents, skills and commands, without hooks or MCP servers",
+  "description": "ECC v2.2.3 (c05b2d6): selected agents, skills and commands (ecc-include.txt), no hooks or MCP servers",
   "author": {
     "name": "Affaan Mustafa",
     "url": "https://x.com/affaanmustafa"

@@ -20,7 +20,7 @@
     },
     {
       "name": "ecc",
-      "description": "Everything Claude Code v2.2.3: 68 agents, skills and commands, without hooks or MCP servers (trimmed copy of affaan-m/ECC)",
+      "description": "Everything Claude Code v2.2.3, selected parts (ecc-include.txt): 5 agents, 9 skills, 1 command, no hooks or MCP servers",
       "source": "./plugins/ecc",
       "category": "workflow"
     }

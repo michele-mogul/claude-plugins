@@ -1,0 +1,30 @@
+# ECC parts copied into plugins/ecc by sync-ecc.sh, one path per line (relative to the ECC repo).
+# Keep the total small: every skill and command description counts against Claude Code's
+# skill listing budget (30k chars, shared with all other skills).
+
+# Python (monitor bot, Eden bot)
+skills/python-patterns
+skills/python-testing
+commands/python-review.md
+agents/python-reviewer.md
+
+# Containers and operations
+skills/docker-patterns
+skills/deployment-patterns
+skills/error-handling
+agents/silent-failure-hunter.md
+
+# Security
+skills/security-review
+agents/security-reviewer.md
+
+# GitHub (issues, project board, PRs)
+skills/github-ops
+
+# Network
+skills/homelab-network-setup
+agents/homelab-architect.md
+agents/network-troubleshooter.md
+
+# Library docs through the context7 plugin
+skills/documentation-lookup
